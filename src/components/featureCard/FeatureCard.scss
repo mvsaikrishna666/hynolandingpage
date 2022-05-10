@@ -1,0 +1,35 @@
+.feature-card-wrapper {
+  height: 160px;
+  width: 440px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 30px;
+  i {
+    font-size: 40px;
+    width: 40px;
+    height: 100%;
+    color: #86c6ab;
+  }
+}
+.feature-card-content {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 30px;
+}
+.feature-card-title {
+  text-align: left;
+  font: normal normal 600 24px/27px Titillium Web;
+  letter-spacing: 0px;
+  color: #282f33;
+}
+.feature-card-body {
+  text-align: left;
+  font: normal normal normal 16px/27px Roboto;
+  letter-spacing: 0px;
+  color: #999b9d;
+}

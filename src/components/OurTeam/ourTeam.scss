@@ -1,0 +1,29 @@
+.our-team-wrapper {
+  margin-bottom: 150px;
+}
+.our-team-title {
+  text-align: center;
+  font: normal normal bold 48px/81px Titillium Web;
+  letter-spacing: 0px;
+  color: #282f33;
+  margin-bottom: 30px;
+}
+.our-team-member-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 30px;
+  i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #bfc0c1 0% 0% no-repeat padding-box;
+    background: #e0e8ee 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+  }
+}

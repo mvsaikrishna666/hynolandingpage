@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 145px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.app-logo {
+  height: 40px;
+  width: 120px;
+  margin-right: 150px;
+  text-align: left;
+  font: normal normal bold 24px Titillium Web;
+  letter-spacing: 0px;
+  color: #282f33;
+  &-footer {
+    @extend .app-logo;
+    color: #ffffff;
+  }
+}
+.header-menu {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 0px;
+  color: #282f33;
+
+  // font-family: "Titillium Web", sans-serif;
+}
+.down-arrow {
+  margin-left: 5px;
+  color: #48b285;
+}
+.create-account-btn {
+  width: 120px;
+  height: 40px;
+  /* UI Properties */
+  border: 1px solid #e0e8ee;
+  border-radius: 4px;
+  background: #fff;
+  font: normal normal normal 11px/24px Roboto;
+  color: #48b285;
+}

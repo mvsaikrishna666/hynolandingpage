@@ -1,0 +1,23 @@
+.our-features-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-top: 40px;
+}
+.our-features-title {
+  text-align: center;
+  font: normal normal bold 48px/81px Titillium Web;
+  letter-spacing: 0px;
+  color: #282f33;
+  margin-bottom: 40px;
+}
+.feature-cards-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,59 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  background: linear-gradient(180deg, #637580 50%, #282f33 50%);
+  width: 100%;
+  height: 1350px;
+}
+.footer-title {
+  margin-top: 70px;
+  text-align: center;
+  font: normal normal bold 48px/81px Titillium Web;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.footer-caption {
+  text-align: center;
+  font: normal normal normal 16px/27px Roboto;
+  letter-spacing: 0px;
+  color: #fcfcfd;
+  margin-bottom: 25px;
+}
+.footer-icons-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 53px;
+}
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+  padding: 10px;
+  &-active {
+    @extend .footer-icon;
+    background: #48b285 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+  }
+  i {
+    color: #ffffff;
+  }
+  .footer-icon-text {
+    text-align: center;
+    font: normal normal normal 12px/27px Roboto;
+    letter-spacing: 0px;
+    color: #fcfcfd;
+  }
+}
+.copyright-text {
+  text-align: center;
+  font: normal normal normal 12px/24px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
